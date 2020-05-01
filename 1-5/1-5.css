@@ -8,28 +8,25 @@
 	display: block;
 	clear: both;
 }
-
-.headline{
+header{
 	width: 100%;
+	text-align: center;
 	padding: 20px 0;
-	text-align: center;
-	border-bottom: 1px solid;
-    font-size: 40px;
 }
-.list{
-	text-align: center;
+.nav-list{
 	width: 100%;
-	padding: 15px ;
-	border-bottom: 1px solid;
+	text-align: center;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+.nav-list-item{
+	display: inline-block;
+	padding: 15px 20px;
+}
 
-}
-a{
-	padding: 0 20px;
-}
 .main{
 	width: 800px;
-	padding: 50px 0;
-	margin: 0 auto;
+	margin: 50px auto;
 }
 .box1{
 	background-color: #e6ffe9;
