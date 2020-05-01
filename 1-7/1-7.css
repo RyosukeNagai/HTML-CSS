@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.head-pic{
+	background-image: url(img/mv.jpg);
+	background-size: cover;
+    background-position: bottom;
+	height: 400px;
+}
+.head-text{
+    padding: 20px;
+    color:gray;
+}
+.main{
+	width: 840px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+.item-text1{
+	padding-bottom: 30px;
+	border-bottom: 1px solid gray;
+	color:gray;
+}
+.item-text2{
+	padding: 30px 0;
+	border-bottom: 1px solid gray;
+	color:gray;
+}
+.item-text3{
+	padding: 30px 0;
+	border-bottom: 1px solid gray;
+	color:gray;
+}
+.item-text4{
+	padding: 30px 0;
+	border-bottom: 1px solid gray;
+	color:gray;
+}
+
