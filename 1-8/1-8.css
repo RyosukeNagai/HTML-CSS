@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.clearfix::after{
+	content:"";
+	display: block;
+	clear:both;
+}
+.list{
+	width: 960px;
+	padding: 50px 0;
+	margin: 0 auto;
+}
+.list-item{
+	width: 960px;
+}
+.list-item-text{
+	padding: 20px 0 20px 20px;
+}
+.list-item-text:nth-child(odd){
+	background: gray;
+
+}
+.box{
+	width: 960px;
+	margin-bottom: 50px;
+	margin: 0 auto;
+
+}
+.boxs{
+	width: 30%;
+	height: 200px;
+	background-color: yellow;
+	float:left;
+	margin: 0 5% 40px 0;
+}
+.boxs:nth-child(3n){
+	margin-right: 0;
+}
+.boxs:nth-child(7,8,9){
+	margin-bottom: 50px;
+}
+.boxs:nth-child(4n-3){
+	background-color:orange;
+}
